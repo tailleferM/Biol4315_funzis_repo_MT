@@ -18,3 +18,12 @@ ggplot(cars,aes(x = speed, y = dist))+
   labs(title = "Car speed vs Distance", x = 'Speed', y = 'Distance')
 ```
   
+```{r c3, eval=FALSE}
+docker pull nextgenusfs/funannotate
+```
+
+```{r c4, eval=FALSE}
+conda create -n sequali-env python = 3.10 -c conda-forge
+conda activate sequali-env
+conda install sequali -c conda-forge -c bioconda
+```
