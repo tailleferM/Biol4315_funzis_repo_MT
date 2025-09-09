@@ -2,3 +2,19 @@
 title: "Biol4315 Lab-1 Report"
 output: html_document
 ---
+
+# I forked Ilay's Repo
+
+```{r c1, eval=FALSE}
+install.packages('vegan')
+```
+
+Loading ggplot2 and plotting speed vs dist from cars dataset
+
+```{r c2}
+library(ggplot2)
+ggplot(cars,aes(x = speed, y = dist))+
+  geom_point()+
+  labs(title = "Car speed vs Distance", x = 'Speed', y = 'Distance')
+```
+  
